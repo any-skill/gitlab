@@ -1,0 +1,29 @@
+{
+  "name": "@any-skill/gitlab",
+  "version": "0.1.0",
+  "description": "Non-interactive GitLab CLI and portable Agent Skill",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "any-skill-gitlab": "bin/gitlab.js"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "SKILL.md",
+    "README.md",
+    "LICENSE",
+    "npm-shrinkwrap.json"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/any-skill/gitlab.git"
+  },
+  "license": "MIT"
+}

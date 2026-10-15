@@ -1,0 +1,19 @@
+{
+  "name": "@any-skill/gitlab",
+  "version": "0.1.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@any-skill/gitlab",
+      "version": "0.1.0",
+      "license": "MIT",
+      "bin": {
+        "any-skill-gitlab": "bin/gitlab.js"
+      },
+      "engines": {
+        "node": ">=24"
+      }
+    }
+  }
+}
